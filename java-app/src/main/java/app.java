@@ -21,9 +21,13 @@ public class app {
             e.printStackTrace();
         }
 
-        System.out.println("Please navigate to http://localhost:4567/hello");
+        int port = 4567;
+        port(port);  // Change to a different port if you wish
+        System.out.println("Please navigate to http://localhost:"+port+"/hello");
+
         // Set up a route that responds to HTTP GET requests at the "/hello" endpoint
         get("/hello", (req, res) -> {
+            
             // Set the response type to JSON
             res.type("application/json");
 
