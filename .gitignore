@@ -4,5 +4,6 @@
 # Ignore the bin folder and its subfolders
 [B]bin/
 [O]obj/
+[T]target/
 
 
