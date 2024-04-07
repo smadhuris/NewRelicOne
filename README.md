@@ -21,8 +21,8 @@ In this course, you will learn:
 
 To get started with the course, click the image above or [here](https://www.udemy.com/course/new-relic-apm-application-performance-management-for-devops/?referralCode=E3AB7C6B7055A4C4656C) to enrol on Udemy. You can explore the repository for additional resources, exercises, and project files related to the course.
 
-## Feedback and Support
+## More Free Courses on YouTube!
 
-If you have any questions or feedback or encounter any issues during the course, don't hesitate to contact the instructor directly on Udemy or through the discussion forums provided.
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=flat&logo=youtube)](http://www.youtube.com/@FreeTechnologyLectures)
 
-Happy learning!
+Subscribe to the Free Technology and Technology Management Courses channel for regular free lectures about Coding, DevOps, and Technology Management. [Click Here to View the YouTube Channel](http://www.youtube.com/@FreeTechnologyLectures).
