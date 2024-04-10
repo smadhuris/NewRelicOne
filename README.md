@@ -15,6 +15,8 @@ In this course, you will learn:
 - Synthetic monitoring.
 - New Relic One's query language NRQL.
 - Alerts and Incidents management.
+- Vulnerability Management: Finding Common Vulnerability and Exposures in third-party libraries.
+- Exploitable Security Vulnerability Scanning and reporting with IAST 
 
 
 ## Getting Started
@@ -25,10 +27,10 @@ To get started with the course, click the image above or [here](https://www.udem
 
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=flat&logo=youtube)](http://www.youtube.com/@FreeTechnologyLectures)
 
-Subscribe to the Free Technology and Technology Management Courses channel for regular free lectures about Coding, DevOps, and Technology Management. [Click Here to View the YouTube Channel](http://www.youtube.com/@FreeTechnologyLectures).
+Subscribe to the Free Technology and Technology Management Courses channel for free lectures about Coding, DevOps, and Technology Management. [Click Here to View the YouTube Channel](http://www.youtube.com/@FreeTechnologyLectures).
 
 ## Buy me a coffee ☕
 
-If you find my work helpful, consider treating me by buying me a coffee!
+If you find my work helpful, consider treating me by buying coffee!
 
 <a href="https://ko-fi.com/arefkarimi"><img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="ko-fi" height="36"></a>
