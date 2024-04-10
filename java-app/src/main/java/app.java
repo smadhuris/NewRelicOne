@@ -1,43 +1,18 @@
 import static spark.Spark.*;
-
-import java.util.logging.FileHandler;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
+import java.io.IOException;
 
 public class app {
-    public static void main(String[] args) {
-
-        Logger logger = Logger.getLogger(app.class.getName());
-        
-        try {
-            // Create a file handler to log to "log.txt"
-            FileHandler fileHandler = new FileHandler("log.txt");
-            SimpleFormatter formatter = new SimpleFormatter();
-            fileHandler.setFormatter(formatter);
-
-            // Add the file handler to the logger
-            logger.addHandler(fileHandler);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
+    public static void main(String[] args) throws IOException {
         int port = 4567;
-        port(port);  // Change to a different port if you wish
-        System.out.println("Please navigate to http://localhost:"+port+"/hello");
+        port(port);
 
-        // Set up a route that responds to HTTP GET requests at the "/hello" endpoint
+        System.out.println("Plesae navigate to http://localhost:"+port+"/hello?name=IAST");
+        // Route that reflects user input without proper encoding, introducing a potential XSS vulnerability
         get("/hello", (req, res) -> {
-            
-            // Set the response type to JSON
-            res.type("application/json");
-
-            // Create a JSON response
-            String jsonResponse = "{\"message\": \"Hello, World!\"}";
-
-            // Log a warning message
-            logger.warning("Hello World API Called.");
-
-            return jsonResponse;
+            String name = req.queryParams("name");
+            return "<p>Hello, " + name + "!</p>";
         });
+
+
     }
 }
