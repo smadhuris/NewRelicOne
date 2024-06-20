@@ -1,5 +1,5 @@
 common: &default_settings
-  license_key: << YOUR LICENCE KEY HERE >>
+  license_key: 7b5761feee175e866a7bb371337153a53183NRAL
   app_name: Java TEST - IAST Enabled
   agent_enabled: true
   profile_trace: true
